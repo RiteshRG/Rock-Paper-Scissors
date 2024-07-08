@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 900px){
   .container{
     height: 100vh;
     display: flex;
@@ -7,14 +7,14 @@
   }
 
   .title{
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 1.5px;
     padding: 8px;
   }
 
   .move-icon{
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
   }
 
 
@@ -24,19 +24,14 @@
 @media only screen and (max-width: 393px){
 
   .title{
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 1px;
     padding: 5px;
   }
 
-  .icon{
-    display: grid;
-    grid-template-columns: auto auto ;
-  }
-
   .move-icon{
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
   }
 
   .result{
@@ -51,8 +46,8 @@
   }
 
   .move-result-icon{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
 
   .score{
@@ -88,11 +83,4 @@
     padding: 8px 17px 8px 17px;
   }
 
-}
-
-@media only screen and (max-width: 262px){
-  .icon{
-    display: grid;
-    grid-template-columns: auto ;
-  }
 }
