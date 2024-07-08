@@ -1,0 +1,98 @@
+@media only screen and (max-width: 700px){
+  .container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+  }
+
+  .title{
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    padding: 8px;
+  }
+
+  .move-icon{
+    width: 120px;
+    height: 120px;
+  }
+
+
+  
+}
+
+@media only screen and (max-width: 393px){
+
+  .title{
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 5px;
+  }
+
+  .icon{
+    display: grid;
+    grid-template-columns: auto auto ;
+  }
+
+  .move-icon{
+    width: 90px;
+    height: 90px;
+  }
+
+  .result{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px 15px 5px 15px;
+  }
+
+  .moves{
+    width: 100%;
+  }
+
+  .move-result-icon{
+    width: 50px;
+    height: 50px;
+  }
+
+  .score{
+    font-size: 18px;
+    margin-bottom: 34px;
+    margin-top: 40px;
+    padding: 7px 16px 7px 16px;
+  }
+
+  .reset-score-button,.auto-paly-button{
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+  }
+
+  .confirm-button{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .reset{
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .score{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding: 8px 17px 8px 17px;
+  }
+
+}
+
+@media only screen and (max-width: 262px){
+  .icon{
+    display: grid;
+    grid-template-columns: auto ;
+  }
+}
